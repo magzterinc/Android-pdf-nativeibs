@@ -2,7 +2,9 @@
 
 Forked from mupdf library.
 
-ndk-build inside the jni folder will generate the .so files and it will be used as native library for the Magzter pdf reader from this link https://github.com/magzterinc/Magzter-pdf. PDF reader supports the rich media content embedded inside the pdf. Also landscape will support the double spreaded pages.
+ndk-build inside the jni folder will generate the .so files and it will be used as native library for the Magzter pdf reader from this link https://github.com/magzterinc/Magzter-pdf. 
+
+PDF reader supports the rich media content embedded inside the pdf. Also landscape mode will support the double spreaded pages.
 
 ABOUT
 
