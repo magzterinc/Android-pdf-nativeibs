@@ -1,6 +1,6 @@
 /*
  * mupdf.c is the jni file to communicate to the .so files.
- * Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ * Copyright - >
  *
  */
 #include <jni.h>
