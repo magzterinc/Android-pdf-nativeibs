@@ -1,9 +1,15 @@
-This archive contains the following versions of the software packages:
+This directory holds third party libraries as git submodules.
 
-	jbig2dec -- git checkout dated 2012-08-13 (commit 13cc9dc158f12c3f446579655e942e44ac158634)
-	openjpeg -- version 1.5.0 from code.google.com/p/openjpeg
-		with revisions 1728 and 1730 included from SVN
-	jpeg -- jpegsr09.zip from www.infai.org/jpeg (06 Aug 2012)
-	zlib -- zlib-1.2.7.zip from www.zlib.net
-	freetype -- ft2410.zip from freetype.org
+If the directories are empty, the makefile based build will try
+to use system libraries instead.
 
+To set up the third party modules for building from git:
+
+	$ git submodule init
+	$ git submodule update
+
+Then after each pull (to make sure they're up to date):
+
+	$ git submodule update
+
+Do NOT edit files in the submodule checkouts unless you know what you're doing.
