@@ -1,6 +1,7 @@
 # Magzter-pdf-nativeibs
 
-Forked from mupdf library on 15-10-2012
+Forked from mupdf library on 15-10-2012.
+
 Latest MUPDF library is on the Branch mupdf-latest which is forked on 25-04-2016.
 
 Modified Files:
