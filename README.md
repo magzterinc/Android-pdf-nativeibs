@@ -1,6 +1,6 @@
 # Magzter-pdf-nativeibs
 
-Forked from mupdf library.
+Forked from mupdf library on 25-04-2016.
 
 ndk-build inside the jni folder will generate the .so files and it will be used as native library for the Magzter pdf reader from this link https://github.com/magzterinc/Magzter-pdf. 
 
